@@ -1,0 +1,88 @@
+
+/** ISEF Interface Solution Expert Finder
+ *
+ * @author etjh.nl
+*/
+// TODO khipster
+
+entity Expert {
+	name String
+    contactDetails String
+}
+
+relationship ManyToOne {
+	Expert{group} to Expert
+	Expert{user} to User
+}
+
+entity JHComponent {
+	code String
+	name String
+    summary String
+	description String
+}
+
+entity Application {
+	name String
+	description String
+}
+
+relationship ManyToOne {
+	Application{owner} to User
+}
+
+relationship ManyToOne {
+	JHComponent{application} to Application
+	JHComponent{group} to JHComponent
+}
+
+entity JHInterface {
+	code String
+	name String
+    summary String
+	description String
+}
+
+relationship ManyToOne {
+	JHInterface{producer} to JHComponent
+	JHInterface{consumer} to JHComponent
+}
+
+entity Issue {
+	code String
+    date Instant
+    summary String
+	description String
+    status IssueStatus
+}
+
+enum IssueStatus {
+    New, Known, Old
+}
+
+entity Solution {
+	code String
+    version String
+    from Instant
+    until Instant
+    summary String
+	description String
+}
+
+relationship OneToOne {
+	Solution{issue} to Issue
+	Solution{expert} to Expert
+}
+
+// Set pagination options
+paginate Issue, JHInterface with infinite-scroll
+paginate Expert with pagination
+
+// Use Data Transfert Objects (DTO)
+//dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except JHInterface
+
+// Set an angular suffix
+//angularSuffix * with nl.etjh.isef

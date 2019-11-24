@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Créer un nouveau Solution",
+        "createOrEditLabel": "Créer ou éditer un Solution",
+        "notFound": "Aucun Solution trouvé"
+      },
+      "created": "Un nouveau Solution a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Solution avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Solution avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Solution {{ id }} ?"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

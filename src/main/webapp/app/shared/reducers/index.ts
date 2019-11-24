@@ -12,6 +12,30 @@ import activate, { ActivateState } from 'app/modules/account/activate/activate.r
 import password, { PasswordState } from 'app/modules/account/password/password.reducer';
 import settings, { SettingsState } from 'app/modules/account/settings/settings.reducer';
 import passwordReset, { PasswordResetState } from 'app/modules/account/password-reset/password-reset.reducer';
+// prettier-ignore
+import expert, {
+  ExpertState
+} from 'app/entities/expert/expert.reducer';
+// prettier-ignore
+import jHComponent, {
+  JHComponentState
+} from 'app/entities/jh-component/jh-component.reducer';
+// prettier-ignore
+import application, {
+  ApplicationState
+} from 'app/entities/application/application.reducer';
+// prettier-ignore
+import jHInterface, {
+  JHInterfaceState
+} from 'app/entities/jh-interface/jh-interface.reducer';
+// prettier-ignore
+import issue, {
+  IssueState
+} from 'app/entities/issue/issue.reducer';
+// prettier-ignore
+import solution, {
+  SolutionState
+} from 'app/entities/solution/solution.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -25,6 +49,12 @@ export interface IRootState {
   readonly passwordReset: PasswordResetState;
   readonly password: PasswordState;
   readonly settings: SettingsState;
+  readonly expert: ExpertState;
+  readonly jHComponent: JHComponentState;
+  readonly application: ApplicationState;
+  readonly jHInterface: JHInterfaceState;
+  readonly issue: IssueState;
+  readonly solution: SolutionState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -40,6 +70,12 @@ const rootReducer = combineReducers<IRootState>({
   passwordReset,
   password,
   settings,
+  expert,
+  jHComponent,
+  application,
+  jHInterface,
+  issue,
+  solution,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

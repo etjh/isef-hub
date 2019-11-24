@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHComponent": {
+      "home": {
+        "title": "JHComponents",
+        "createLabel": "JH Component を追加",
+        "createOrEditLabel": "JH Componentを追加または編集",
+        "notFound": "No JH Components found"
+      },
+      "created": "A new JH Component is created with identifier {{ param }}",
+      "updated": "A JH Component is updated with identifier {{ param }}",
+      "deleted": "A JH Component is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "JH Component {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "JH Component"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "application": "Application",
+      "group": "Group"
+    }
+  }
+}

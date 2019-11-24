@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHInterface": {
+      "home": {
+        "title": "JH Interfaces",
+        "createLabel": "创建新 JH Interface",
+        "createOrEditLabel": "创建或编辑 JH Interface",
+        "notFound": "No JH Interfaces found"
+      },
+      "created": "JH Interface {{ param }} 创建成功",
+      "updated": "JH Interface {{ param }} 更新成功",
+      "deleted": "JH Interface {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 JH Interface {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "JH Interface"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "producer": "Producer",
+      "consumer": "Consumer"
+    }
+  }
+}

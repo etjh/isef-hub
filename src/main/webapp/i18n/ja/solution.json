@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Solution を追加",
+        "createOrEditLabel": "Solutionを追加または編集",
+        "notFound": "No Solutions found"
+      },
+      "created": "A new Solution is created with identifier {{ param }}",
+      "updated": "A Solution is updated with identifier {{ param }}",
+      "deleted": "A Solution is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Solution {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHComponent": {
+      "home": {
+        "title": "JH Components",
+        "createLabel": "Maak een nieuwe JH Component",
+        "createOrEditLabel": "Maak of wijzig een JH Component",
+        "notFound": "No JH Components found"
+      },
+      "created": "A new JH Component is created with identifier {{ param }}",
+      "updated": "A JH Component is updated with identifier {{ param }}",
+      "deleted": "A JH Component is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u JH Component {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "JH Component"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "application": "Application",
+      "group": "Group"
+    }
+  }
+}

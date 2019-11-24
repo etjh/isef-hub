@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Create a new Solution",
+        "createOrEditLabel": "Create or edit a Solution",
+        "notFound": "No Solutions found"
+      },
+      "created": "A new Solution is created with identifier {{ param }}",
+      "updated": "A Solution is updated with identifier {{ param }}",
+      "deleted": "A Solution is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Solution {{ id }}?"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

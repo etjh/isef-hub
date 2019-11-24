@@ -1,0 +1,47 @@
+{
+    "name": "JHInterface",
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "summary",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jHComponent",
+            "otherEntityRelationshipName": "jHInterface",
+            "relationshipName": "producer",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "jHComponent",
+            "otherEntityRelationshipName": "jHInterface",
+            "relationshipName": "consumer",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191124214454",
+    "entityTableName": "jh_interface",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

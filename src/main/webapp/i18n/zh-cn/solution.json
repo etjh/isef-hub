@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "创建新 Solution",
+        "createOrEditLabel": "创建或编辑 Solution",
+        "notFound": "No Solutions found"
+      },
+      "created": "Solution {{ param }} 创建成功",
+      "updated": "Solution {{ param }} 更新成功",
+      "deleted": "Solution {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Solution {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

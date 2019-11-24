@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity Solution.
+    -->
+    <changeSet id="20191124214456-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="issue_id"
+                                 baseTableName="solution"
+                                 constraintName="fk_solution_issue_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="issue"/>
+
+        <addForeignKeyConstraint baseColumnNames="expert_id"
+                                 baseTableName="solution"
+                                 constraintName="fk_solution_expert_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="expert"/>
+
+    </changeSet>
+</databaseChangeLog>

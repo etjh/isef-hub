@@ -1,0 +1,25 @@
+{
+  "isefApp": {
+    "expert": {
+      "home": {
+        "title": "Experts",
+        "createLabel": "创建新 Expert",
+        "createOrEditLabel": "创建或编辑 Expert",
+        "notFound": "No Experts found"
+      },
+      "created": "Expert {{ param }} 创建成功",
+      "updated": "Expert {{ param }} 更新成功",
+      "deleted": "Expert {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Expert {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Expert"
+      },
+      "name": "Name",
+      "contactDetails": "Contact Details",
+      "group": "Group",
+      "user": "User"
+    }
+  }
+}

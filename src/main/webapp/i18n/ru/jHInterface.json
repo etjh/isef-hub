@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHInterface": {
+      "home": {
+        "title": "JH Interfaces",
+        "createLabel": "Создать новый JH Interface",
+        "createOrEditLabel": "Создать или отредактировать JH Interface",
+        "notFound": "No JH Interfaces found"
+      },
+      "created": "Новый JH Interface создан с идентификатором {{ param }}",
+      "updated": "JH Interface обновлен с идентификатором {{ param }}",
+      "deleted": "JH Interface удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить JH Interface {{ id }}?"
+      },
+      "detail": {
+        "title": "JH Interface"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "producer": "Producer",
+      "consumer": "Consumer"
+    }
+  }
+}

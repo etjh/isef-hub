@@ -1,0 +1,25 @@
+{
+  "isefApp": {
+    "expert": {
+      "home": {
+        "title": "Experts",
+        "createLabel": "Создать новый Expert",
+        "createOrEditLabel": "Создать или отредактировать Expert",
+        "notFound": "No Experts found"
+      },
+      "created": "Новый Expert создан с идентификатором {{ param }}",
+      "updated": "Expert обновлен с идентификатором {{ param }}",
+      "deleted": "Expert удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Expert {{ id }}?"
+      },
+      "detail": {
+        "title": "Expert"
+      },
+      "name": "Name",
+      "contactDetails": "Contact Details",
+      "group": "Group",
+      "user": "User"
+    }
+  }
+}
