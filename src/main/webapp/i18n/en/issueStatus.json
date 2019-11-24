@@ -1,0 +1,10 @@
+{
+  "isefApp": {
+    "IssueStatus": {
+      "null": "",
+      "New": "New",
+      "Known": "Known",
+      "Old": "Old"
+    }
+  }
+}

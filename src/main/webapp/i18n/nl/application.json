@@ -1,0 +1,24 @@
+{
+  "isefApp": {
+    "application": {
+      "home": {
+        "title": "Applications",
+        "createLabel": "Maak een nieuwe Application",
+        "createOrEditLabel": "Maak of wijzig een Application",
+        "notFound": "No Applications found"
+      },
+      "created": "A new Application is created with identifier {{ param }}",
+      "updated": "A Application is updated with identifier {{ param }}",
+      "deleted": "A Application is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Application {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Application"
+      },
+      "name": "Name",
+      "description": "Description",
+      "owner": "Owner"
+    }
+  }
+}

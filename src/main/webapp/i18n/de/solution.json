@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Solution erstellen",
+        "createOrEditLabel": "Solution erstellen oder bearbeiten",
+        "notFound": "No Solutions found"
+      },
+      "created": "Solution erstellt mit ID {{ param }}",
+      "updated": "Solution aktualisiert mit ID {{ param }}",
+      "deleted": "Solution gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Solution {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

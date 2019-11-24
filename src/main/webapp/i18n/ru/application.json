@@ -1,0 +1,24 @@
+{
+  "isefApp": {
+    "application": {
+      "home": {
+        "title": "Applications",
+        "createLabel": "Создать новый Application",
+        "createOrEditLabel": "Создать или отредактировать Application",
+        "notFound": "No Applications found"
+      },
+      "created": "Новый Application создан с идентификатором {{ param }}",
+      "updated": "Application обновлен с идентификатором {{ param }}",
+      "deleted": "Application удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Application {{ id }}?"
+      },
+      "detail": {
+        "title": "Application"
+      },
+      "name": "Name",
+      "description": "Description",
+      "owner": "Owner"
+    }
+  }
+}

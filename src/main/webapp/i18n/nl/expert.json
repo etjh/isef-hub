@@ -1,0 +1,25 @@
+{
+  "isefApp": {
+    "expert": {
+      "home": {
+        "title": "Experts",
+        "createLabel": "Maak een nieuwe Expert",
+        "createOrEditLabel": "Maak of wijzig een Expert",
+        "notFound": "No Experts found"
+      },
+      "created": "A new Expert is created with identifier {{ param }}",
+      "updated": "A Expert is updated with identifier {{ param }}",
+      "deleted": "A Expert is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Expert {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Expert"
+      },
+      "name": "Name",
+      "contactDetails": "Contact Details",
+      "group": "Group",
+      "user": "User"
+    }
+  }
+}

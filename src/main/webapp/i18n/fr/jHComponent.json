@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHComponent": {
+      "home": {
+        "title": "JHComponents",
+        "createLabel": "Créer un nouveau JH Component",
+        "createOrEditLabel": "Créer ou éditer un JH Component",
+        "notFound": "Aucun JH Component trouvé"
+      },
+      "created": "Un nouveau JH Component a été créé avec l'identifiant {{ param }}",
+      "updated": "Le JH Component avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le JH Component avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le JH Component {{ id }} ?"
+      },
+      "detail": {
+        "title": "JH Component"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "application": "Application",
+      "group": "Group"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isefApp": {
+    "application": {
+      "home": {
+        "title": "Applications",
+        "createLabel": "Application erstellen",
+        "createOrEditLabel": "Application erstellen oder bearbeiten",
+        "notFound": "No Applications found"
+      },
+      "created": "Application erstellt mit ID {{ param }}",
+      "updated": "Application aktualisiert mit ID {{ param }}",
+      "deleted": "Application gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Application {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Application"
+      },
+      "name": "Name",
+      "description": "Description",
+      "owner": "Owner"
+    }
+  }
+}

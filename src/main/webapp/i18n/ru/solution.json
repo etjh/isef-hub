@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Создать новый Solution",
+        "createOrEditLabel": "Создать или отредактировать Solution",
+        "notFound": "No Solutions found"
+      },
+      "created": "Новый Solution создан с идентификатором {{ param }}",
+      "updated": "Solution обновлен с идентификатором {{ param }}",
+      "deleted": "Solution удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Solution {{ id }}?"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHComponent": {
+      "home": {
+        "title": "JH Components",
+        "createLabel": "创建新 JH Component",
+        "createOrEditLabel": "创建或编辑 JH Component",
+        "notFound": "No JH Components found"
+      },
+      "created": "JH Component {{ param }} 创建成功",
+      "updated": "JH Component {{ param }} 更新成功",
+      "deleted": "JH Component {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 JH Component {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "JH Component"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "application": "Application",
+      "group": "Group"
+    }
+  }
+}

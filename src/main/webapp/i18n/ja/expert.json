@@ -1,0 +1,25 @@
+{
+  "isefApp": {
+    "expert": {
+      "home": {
+        "title": "Experts",
+        "createLabel": "Expert を追加",
+        "createOrEditLabel": "Expertを追加または編集",
+        "notFound": "No Experts found"
+      },
+      "created": "A new Expert is created with identifier {{ param }}",
+      "updated": "A Expert is updated with identifier {{ param }}",
+      "deleted": "A Expert is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Expert {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Expert"
+      },
+      "name": "Name",
+      "contactDetails": "Contact Details",
+      "group": "Group",
+      "user": "User"
+    }
+  }
+}

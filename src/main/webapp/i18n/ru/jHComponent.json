@@ -1,0 +1,27 @@
+{
+  "isefApp": {
+    "jHComponent": {
+      "home": {
+        "title": "JH Components",
+        "createLabel": "Создать новый JH Component",
+        "createOrEditLabel": "Создать или отредактировать JH Component",
+        "notFound": "No JH Components found"
+      },
+      "created": "Новый JH Component создан с идентификатором {{ param }}",
+      "updated": "JH Component обновлен с идентификатором {{ param }}",
+      "deleted": "JH Component удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить JH Component {{ id }}?"
+      },
+      "detail": {
+        "title": "JH Component"
+      },
+      "code": "Code",
+      "name": "Name",
+      "summary": "Summary",
+      "description": "Description",
+      "application": "Application",
+      "group": "Group"
+    }
+  }
+}

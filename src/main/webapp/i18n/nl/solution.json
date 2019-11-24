@@ -1,0 +1,29 @@
+{
+  "isefApp": {
+    "solution": {
+      "home": {
+        "title": "Solutions",
+        "createLabel": "Maak een nieuwe Solution",
+        "createOrEditLabel": "Maak of wijzig een Solution",
+        "notFound": "No Solutions found"
+      },
+      "created": "A new Solution is created with identifier {{ param }}",
+      "updated": "A Solution is updated with identifier {{ param }}",
+      "deleted": "A Solution is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Solution {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Solution"
+      },
+      "code": "Code",
+      "version": "Version",
+      "from": "From",
+      "until": "Until",
+      "summary": "Summary",
+      "description": "Description",
+      "issue": "Issue",
+      "expert": "Expert"
+    }
+  }
+}

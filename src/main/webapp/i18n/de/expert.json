@@ -1,0 +1,25 @@
+{
+  "isefApp": {
+    "expert": {
+      "home": {
+        "title": "Experts",
+        "createLabel": "Expert erstellen",
+        "createOrEditLabel": "Expert erstellen oder bearbeiten",
+        "notFound": "No Experts found"
+      },
+      "created": "Expert erstellt mit ID {{ param }}",
+      "updated": "Expert aktualisiert mit ID {{ param }}",
+      "deleted": "Expert gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Expert {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Expert"
+      },
+      "name": "Name",
+      "contactDetails": "Contact Details",
+      "group": "Group",
+      "user": "User"
+    }
+  }
+}

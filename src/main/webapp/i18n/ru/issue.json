@@ -1,0 +1,26 @@
+{
+  "isefApp": {
+    "issue": {
+      "home": {
+        "title": "Issues",
+        "createLabel": "Создать новый Issue",
+        "createOrEditLabel": "Создать или отредактировать Issue",
+        "notFound": "No Issues found"
+      },
+      "created": "Новый Issue создан с идентификатором {{ param }}",
+      "updated": "Issue обновлен с идентификатором {{ param }}",
+      "deleted": "Issue удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Issue {{ id }}?"
+      },
+      "detail": {
+        "title": "Issue"
+      },
+      "code": "Code",
+      "date": "Date",
+      "summary": "Summary",
+      "description": "Description",
+      "status": "Status"
+    }
+  }
+}

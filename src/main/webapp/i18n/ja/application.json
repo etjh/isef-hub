@@ -1,0 +1,24 @@
+{
+  "isefApp": {
+    "application": {
+      "home": {
+        "title": "Applications",
+        "createLabel": "Application を追加",
+        "createOrEditLabel": "Applicationを追加または編集",
+        "notFound": "No Applications found"
+      },
+      "created": "A new Application is created with identifier {{ param }}",
+      "updated": "A Application is updated with identifier {{ param }}",
+      "deleted": "A Application is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Application {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Application"
+      },
+      "name": "Name",
+      "description": "Description",
+      "owner": "Owner"
+    }
+  }
+}
